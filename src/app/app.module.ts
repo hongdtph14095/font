@@ -3,12 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HelloComponent } from './components/hello/hello.component';
-import { AboutComponent } from './components/about/about.component';
-import { ProductsComponent } from './components/products/products.component';
+import { HelloComponent } from './conponemnts/hello/hello.component';
+import { AboutComponent } from './conponemnts/about/about.component';
+import { ProductsComponent } from './conponemnts/products/products.component';
 import { FormsModule } from '@angular/forms';
-import { ProductAddComponent } from './components/product-add/product-add.component';
-import { ProductDetailComponent } from './components/product-detail/product-detail.component';
+import { ProductAddComponent } from './conponemnts/product-add/product-add.component';
+import { ProductDetailComponent } from './conponemnts/product-detail/product-detail.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -17,13 +17,13 @@ import { en_US } from 'ng-zorro-antd/i18n';
 import { registerLocaleData } from '@angular/common';
 import en from '@angular/common/locales/en';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { HeaderComponent } from './components/header/header.component'
+import { HeaderComponent } from './conponemnts/header/header.component'
 import { NzMenuModule } from 'ng-zorro-antd/menu';
 
 registerLocaleData(en);
 @NgModule({
   declarations: [
-    AppComponent,
+   AppComponent,
     HelloComponent,
     AboutComponent,
     ProductsComponent,
