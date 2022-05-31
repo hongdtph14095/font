@@ -20,6 +20,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './conponemnts/header/header.component'
 import { NzMenuModule } from 'ng-zorro-antd/menu';
 import { NzTableModule } from 'ng-zorro-antd/table';
+import { LoginComponent } from './login/login.component';
 registerLocaleData(en);
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ registerLocaleData(en);
     ProductDetailComponent,
     NotFoundComponent,
     HomeComponent,
-    HeaderComponent
+    HeaderComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
