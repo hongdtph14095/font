@@ -19,7 +19,7 @@ import en from '@angular/common/locales/en';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './conponemnts/header/header.component'
 import { NzMenuModule } from 'ng-zorro-antd/menu';
-
+import { NzTableModule } from 'ng-zorro-antd/table';
 registerLocaleData(en);
 @NgModule({
   declarations: [
@@ -39,7 +39,8 @@ registerLocaleData(en);
     FormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    NzMenuModule
+    NzMenuModule,
+    NzTableModule
   ],
   providers: [{ provide: NZ_I18N, useValue: en_US }],
   bootstrap: [AppComponent]
