@@ -7,6 +7,7 @@ import { ProductDetailComponent } from './conponemnts/product-detail/product-det
 import { ProductsComponent } from './conponemnts/products/products.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
   { path: "", component: HomeComponent },
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: "product/:id", component: ProductDetailComponent },
   { path: "product/edit/:id", component: ProductAddComponent },
   { path: "**", component: NotFoundComponent },
+  {path : "login", component : LoginComponent}
 ];
 
 @NgModule({

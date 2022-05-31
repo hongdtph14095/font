@@ -21,6 +21,7 @@ import { HeaderComponent } from './conponemnts/header/header.component'
 import { NzMenuModule } from 'ng-zorro-antd/menu';
 import { NzTableModule } from 'ng-zorro-antd/table';
 import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 registerLocaleData(en);
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ registerLocaleData(en);
     NotFoundComponent,
     HomeComponent,
     HeaderComponent,
-    LoginComponent
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
